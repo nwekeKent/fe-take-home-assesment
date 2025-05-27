@@ -4,6 +4,7 @@
     "types/**/*.d.ts",
     "src/**/*",
     "src/**/*.vue",
+    "src/**/*.json"
   ],
   "exclude": [
     "src/**/__tests__/*"
@@ -20,6 +21,8 @@
         "./src/*"
       ]
     },
-    "outDir": "dist/types"
+    "outDir": "dist/types",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   }
 }

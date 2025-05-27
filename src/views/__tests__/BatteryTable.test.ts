@@ -2,8 +2,8 @@ import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { mount } from '@vue/test-utils';
 import { nextTick } from 'vue';
 
-// Mock the JSON import first
-vi.mock('../../data/battery.json', () => ({
+// Mock the TypeScript data import
+vi.mock('../../data/batteryData', () => ({
   default: [
     {
       academyId: 1,
