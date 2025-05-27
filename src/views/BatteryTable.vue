@@ -47,29 +47,13 @@
 
     <!-- Table Section -->
     <div class="flex flex-col flex-1 overflow-hidden">
-      <!-- Single horizontal scroll container for both header and body -->
       <div class="flex flex-col flex-1 overflow-auto table-container">
         <!-- Header -->
         <div class="flex-shrink-0 border-b border-gray-200 bg-gray-50 lg:sticky lg:top-0 lg:z-10">
           <div
             class="grid grid-cols-5 border-gray-200 bg-gray-50 gap-4 px-6 py-4 text-sm font-medium text-gray-700 min-w-[800px]"
           >
-            <div class="flex items-center gap-2">
-              Employee ID
-              <!-- <svg
-                class="w-4 h-4 text-gray-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M8 9l4-4 4 4m0 6l-4 4-4-4"
-                ></path>
-              </svg> -->
-            </div>
+            <div class="flex items-center gap-2">Employee ID</div>
             <div>Academy ID</div>
             <div>Serial Number</div>
             <div>Battery Level</div>
